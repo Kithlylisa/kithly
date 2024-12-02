@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desain Bunga Manis</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FFF0F5;
+            color: #FF69B4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background-color: #FFE4E1;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .flower {
+            font-size: 50px;
+            animation: bounce 1s infinite alternate;
+        }
+        .message {
+            font-size: 24px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .link {
+            font-size: 20px;
+            margin-top: 30px;
+            background-color: #FF69B4;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link:hover {
+            background-color: #FF1493;
+        }
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flower">🌸</div>
+        <div class="message">
+            Untuk kamu 💖,<br>
+            Semoga hari-harimu penuh kebahagiaan dan semangat! 💫
+        </div>
+        <a href="https://images7.memedroid.com/images/UPLOADED767/62e83b70a278b.jpeg" target="_blank" class="link">Klik Disini untuk Kejutan 💌</a>
+    </div>
+</body>
+</html>
